@@ -1,0 +1,129 @@
+body {
+    background-image: url("color4bg_2024-10-03 12_08_19 1 (1).png");
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+#frame {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    background-color: rgba(0, 0, 0, 0.49);
+    width: 695;
+    height: 794;
+    top: 175px;
+    left: 613px;
+    border-radius: 30px;
+
+
+}
+
+#caption {
+  align-items: center   ;
+    margin-left: 356px;
+    color: #FFFFFF;
+    font-family: Poppins;
+
+}
+
+.customInputsLarge {
+    display: flex;
+    row-gap: 10px;
+    width: 504px;
+    height: 62px;
+    font-family: Poppins;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 15px;
+    border-radius: 10px;
+    border: 0.3px solid #FFFFFF
+}
+
+.custominputsmall {
+   
+    
+    width: 235px;
+    height: 62px;
+    font-family: Poppins;
+    color: #9F9E9E;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 15px;
+    border-radius: 10px;
+    border: 0.3px solid rgba(255, 255, 255, 1)
+}
+
+#gender {
+    display: flex;
+   justify-content: start;
+   justify-content: space-between;
+   margin-left: 0%;
+    font-family: Poppins;
+    font-size: medium;
+    color: rgba(159, 158, 158, 1);
+    margin: 15px;
+    width: 386;
+    height: 23;
+}
+
+.inputs {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 74;
+    height: 23;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    border-width: 1px;
+    border: 1px solid rgba(255, 255, 255, 1)
+}
+
+#login {
+    margin: 10px;
+    margin-top: 15px;
+    width: 349;
+    height: 71;
+    top: 707px;
+    left: 786px;
+    border-radius: 10px;
+    border-width: 0.5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: Poppins;
+    font-size: 35px;
+    color: rgba(255, 204, 0, 1);
+    border: 0.5px solid
+}
+
+#end {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-bottom: 0%;
+    margin-top: 50px;
+    padding: auto;
+    width: 647;
+    height: 36;
+    top: 906px;
+    left: 637px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: rgba(159, 158, 158, 1);
+
+}
