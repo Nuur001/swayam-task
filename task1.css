@@ -12,18 +12,24 @@ body {
     justify-content: center;
     align-items: center;
     margin-left: 30px;
+    margin-bottom: 30px;
     background-color: rgba(0, 0, 0, 0.49);
     width: 695;
     height: 794;
     top: 175px;
     left: 613px;
     border-radius: 30px;
+}
 
+#form {
+    display: grid;
+    grid-column-start: auto;
+    margin-left: 70px;
 
 }
 
 #caption {
-  align-items: center   ;
+    align-items: center;
     margin-left: 356px;
     color: #FFFFFF;
     font-family: Poppins;
@@ -31,7 +37,6 @@ body {
 }
 
 .customInputsLarge {
-    display: flex;
     row-gap: 10px;
     width: 504px;
     height: 62px;
@@ -47,9 +52,11 @@ body {
     border: 0.3px solid #FFFFFF
 }
 
+.customInputsLarge::placeholder {
+    padding-left: 40px;
+}
+
 .custominputsmall {
-   
-    
     width: 235px;
     height: 62px;
     font-family: Poppins;
@@ -64,15 +71,34 @@ body {
     border: 0.3px solid rgba(255, 255, 255, 1)
 }
 
+
+
+.custominputsmall [type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    appearance: none;
+    margin: 0;
+}
+
+.custominputsmall:hover::-webkit-inner-spin-button, 
+.custominputsmall:hover::-webkit-outer-spin-button {
+    display: none;
+}
+
+.customInputsmall::placeholder {
+    padding-left: 40px;
+}
+
 #gender {
     display: flex;
-   justify-content: start;
-   justify-content: space-between;
-   margin-left: 0%;
+    justify-content: start;
+    justify-content: space-between;
+    margin-left: 0%;
     font-family: Poppins;
     font-size: medium;
     color: rgba(159, 158, 158, 1);
     margin: 15px;
+    margin-left: 0%;
     width: 386;
     height: 23;
 }
@@ -90,6 +116,11 @@ body {
     letter-spacing: 0%;
     border-width: 1px;
     border: 1px solid rgba(255, 255, 255, 1)
+}
+
+.inputs::placeholder {
+    padding-left: 0%;
+
 }
 
 #login {
