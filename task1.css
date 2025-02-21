@@ -73,16 +73,10 @@ body {
 
 
 
-.custominputsmall [type="number"]::-webkit-inner-spin-button, 
-input[type="number"]::-webkit-outer-spin-button { 
-    -webkit-appearance: none; 
-    appearance: none;
-    margin: 0;
-}
-
-.custominputsmall:hover::-webkit-inner-spin-button, 
-.custominputsmall:hover::-webkit-outer-spin-button {
-    display: none;
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
 
 .customInputsmall::placeholder {
