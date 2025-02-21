@@ -22,17 +22,26 @@
         <div id="form">
             <form action="login.php">
                 <input type="text" placeholder="name" class="customInputsLarge" />
-              
+
                 <input type="number" placeholder="phone number" class="customInputsLarge" />
-                
+
                 <input type="number" placeholder="height" class="custominputsmall" />
-                <input type="date" placeholder="date of birth" class="custominputsmall" /> 
+                <input type="date" placeholder="date of birth" class="custominputsmall" />
 
                 <div id="gender">
-                    <input type="radio" class="inputs">male
-                    <input type="radio" class="inputs">female
-                    <input type="radio" class="inputs">other 
+
+                    <!---- <input type="radio" class="inputs" name="gender">male
+                    <input type="radio" class="inputs" name="gender">female
+                    <input type="radio" class="inputs" name="gender">other -->
+
+                    <input type="radio" name="choice" class="inputs" value="male">male
+                    <input type="radio" name="choice" class="inputs" value="female">female
+                    <input type="radio" name="choice" class="inputs" value="others">others
+
+
+
                 </div>
+
             </form>
         </div>
         <div>
